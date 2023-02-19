@@ -1,0 +1,26 @@
+h1 {
+    color: green;
+    background-color: yellow;
+}
+
+h2 {
+    font-family: Impact;
+}
+
+body {
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+description {
+    color: rebeccapurple;
+}
+
+span {
+    border: 1px solid black;
+    font-size: 40px;
+    background-color: lime;
+}

@@ -1,0 +1,35 @@
+<!-- Dynamic client-side scripting -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic client-side scripting</title>
+    <link rel="stylesheet" href="css_file.css">
+</head>
+
+<body>
+    <span>JavaScript Project</span>
+    
+    <h3>With CSS</h3>
+
+    <p>This is my first CSS Example</p>
+
+    <description>This is a bulleted desription of the program</description>
+    <ul>
+        <li>Dynamic client-side scripting</li>
+    </ul>
+    
+</body>
+<input id="textBox" type="text" />
+<div id="output"></div>
+
+
+<script>
+    const texBox = document.querySelector("#textBox");
+    const output = document.querySelector("#output");
+    textBox.addEventListener(
+        "keydown",
+        (event) => (output.textContent = `You pressed "${event.key}".`)
+    );
+</script>
+</html>
